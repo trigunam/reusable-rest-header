@@ -1,9 +1,9 @@
-# Reusable REST Header
+# Reusable REST Headers
 
 [![Jest build status](https://github.com/trigunam/reusable-rest-header/actions/workflows/test.yml/badge.svg)](https://github.com/trigunam/tostring-implementation/actions/workflows/test.yml)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen)](CONTRIBUTING.md)
 
-A reusable rest header which can be used in your JavaScript code to create headers using builder pattern.
+A reusable rest header object which can be used in your JavaScript code to create headers using builder pattern.
 
 To generate the following output,
 
@@ -83,16 +83,16 @@ Using:
 
 ## Available methods
 
-`addAccept(acceptType = "application/json")`
-`addAcceptScim()`
-`addBasicAuth(credentials)`
-`addBearerAuth(accessToken)`
-`addPlainAuth(accessToken)`
-`addContentType(contentType = "application/json")`
-`addFormContentType()`
-`addProductKey(productKey)`
-`addETag(etag)`
-`addSignature(sharedKey, secretKey)`
-`addCustomHeader(customheaderValue)`
+### `addAccept(acceptType = "application/json")`
+### `addAcceptScim()`
+### `addBasicAuth(credentials)`
+### `addBearerAuth(accessToken)`
+### `addPlainAuth(accessToken)`
+### `addContentType(contentType = "application/json")`
+### `addFormContentType()`
+### `addProductKey(productKey)`
+### `addETag(etag)`
+### `addSignature(sharedKey, secretKey)`
+### `addCustomHeader(customheaderValue)`
 
 # Contributions are welcome

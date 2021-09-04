@@ -1,4 +1,4 @@
-const { createSignature, encode } = require("./util");
+const { encode, createSignature } = require("./util");
 
 /**
  * Creates a new RESTHeader (JSON) with cache-control, api-version.

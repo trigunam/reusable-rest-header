@@ -7,7 +7,7 @@
     "node": "14.x.x"
   },
   "scripts": {
-    "dev": "node main.js",
+    "dev": "node app.js",
     "test": "jest"
   },
   "repository": {
@@ -28,5 +28,8 @@
   "dependencies": {
     "crypto-js": "^4.1.1",
     "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "jest": "^27.1.0"
   }
 }

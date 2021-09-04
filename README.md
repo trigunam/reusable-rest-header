@@ -1,5 +1,8 @@
 # Reusable REST Header
 
+[![Jest build status](https://github.com/trigunam/reusable-rest-header/actions/workflows/test.yml/badge.svg)](https://github.com/trigunam/tostring-implementation/actions/workflows/test.yml)
+[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen)](CONTRIBUTING.md)
+
 A reusable rest header which can be used in your JavaScript code to create headers using builder pattern.
 
 To generate the following output,

@@ -1,0 +1,32 @@
+{
+  "name": "reusable-rest-header",
+  "version": "1.0.0",
+  "description": "A reusable rest header which can be used in your JavaScript code to create headers using builder pattern.",
+  "main": "app.js",
+  "engines": {
+    "node": "14.x.x"
+  },
+  "scripts": {
+    "dev": "node main.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trigunam/reusable-rest-header.git"
+  },
+  "keywords": [
+    "resuable",
+    "rest",
+    "rest-header"
+  ],
+  "author": "Triguna Mutuguppe Sripathi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trigunam/reusable-rest-header/issues"
+  },
+  "homepage": "https://github.com/trigunam/reusable-rest-header#readme",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "uuid": "^8.3.2"
+  }
+}

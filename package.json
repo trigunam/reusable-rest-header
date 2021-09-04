@@ -1,6 +1,6 @@
 {
   "name": "reusable-rest-header",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A reusable rest header which can be used in your JavaScript code to create headers using builder pattern.",
   "main": "app.js",
   "engines": {

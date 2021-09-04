@@ -20,3 +20,79 @@ To generate the following output,
 Use the below code:
 
 `new RESTHeader(1).addBearerAuth(uuidv4()).build();`
+
+## Usage
+
+Install package to your project using the following command:
+
+`npm i reusable-rest-header`
+
+Once installed you can import the `RESTHeader`
+
+`const RESTHeader = require('./RESTHeader');`
+
+Use this defined `const` as:
+
+`new RESTHeader(1).addBearerAuth(uuidv4()).build();`
+
+## Available static methods
+
+To speed up development, use available static methods:
+
+### `bearerAuthOnly`
+
+Using:
+`RESTHeader.bearerAuthOnly(random_token);`
+
+```javascript
+{
+  'Cache-Control': 'no-store no-cache',
+  'Content-Type': 'application/json',
+  Accept: 'application/json',
+  Authorization: 'Bearer 187addda-b57b-4642-87dc-24a6a155f172'
+}
+```
+
+### `bearerAuthWithApiVersion`
+
+Using:
+`RESTHeader.bearerAuthWithApiVersion(1, random_token);`
+
+```javascript
+{
+  'Cache-Control': 'no-store no-cache',
+  'api-version': 1,
+  'Content-Type': 'application/json',
+  Accept: 'application/json',
+  Authorization: 'Bearer 1305da60-434e-4edd-a9c5-a5794d97a870'
+}
+```
+
+### `defaultHeaders`
+
+Using:
+`RESTHeader.defaultHeaders();`
+
+```javascript
+{
+  'Cache-Control': 'no-store no-cache',
+  'Content-Type': 'application/json',
+  Accept: 'application/json',
+}
+```
+
+## Available methods
+
+`addAccept(acceptType = "application/json")`
+`addAcceptScim()`
+`addBasicAuth(credentials)`
+`addBearerAuth(accessToken)`
+`addPlainAuth(accessToken)`
+`addContentType(contentType = "application/json")`
+`addFormContentType()`
+`addProductKey(productKey)`
+`addETag(etag)`
+`addSignature(sharedKey, secretKey)`
+`addCustomHeader(customheaderValue)`
+
+# Contributions are welcome

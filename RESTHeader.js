@@ -29,7 +29,7 @@ module.exports = class RESTHeader {
 
   /**
    * Add the `Accept` header with the value specified in acceptType.
-   * 
+   *
    * @param {string} acceptType default: 'application/json'
    * @returns RESTHeader
    */

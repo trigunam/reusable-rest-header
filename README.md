@@ -29,7 +29,7 @@ Install package to your project using the following command:
 
 Once installed you can import the `RESTHeader`
 
-`const RESTHeader = require('./RESTHeader');`
+`const RESTHeader = require('reusable-rest-header/RESTHeader');`
 
 Use this defined `const` as:
 
